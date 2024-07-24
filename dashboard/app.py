@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
  
-dataDay = pd.DataFrame(pd.read_csv('day.csv'))
-dataHour = pd.DataFrame(pd.read_csv('hour.csv'))
+dataDay = pd.DataFrame(pd.read_csv('./data/day.csv'))
+dataHour = pd.DataFrame(pd.read_csv('./data/hour.csv'))
 
 st.title('Dashboard Proyek analisis data')
 st.text("Dataset day.csv")
