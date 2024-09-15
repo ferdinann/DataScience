@@ -5,4 +5,3 @@ conda activate main-ds
 # Run Streamlit App
 streamlit run app.py
 
-test
