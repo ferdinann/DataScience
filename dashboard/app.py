@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
  
-dataDay = pd.DataFrame(pd.read_csv('../data/day.csv'))
-dataHour = pd.DataFrame(pd.read_csv('../data/hour.csv'))
+dataDay = pd.DataFrame(pd.read_csv('./data/day.csv'))
+dataHour = pd.DataFrame(pd.read_csv('./data/hour.csv'))
 
 st.title('Dashboard Proyek analisis data')
 st.text("Dataset day.csv")
